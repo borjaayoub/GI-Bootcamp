@@ -1,0 +1,74 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a9a9a9;
+}
+
+#sidebar{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 20%;
+    height: 100vh;
+    float: left;
+    padding: 5px;
+
+}
+
+button{
+    
+    grid-column: span 3;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: whitesmoke;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.color-box{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#red { background-color: red; }
+#orange { background-color: orange; }
+#redorange { background-color: #ff4500; }
+#yellow { background-color: yellow; }
+#yellowgreen { background-color: yellowgreen; }
+#lightgreen { background-color: lightgreen; }
+#green { background-color: green; }
+#turquoise { background-color: turquoise; }
+#cyan { background-color: cyan; }
+#lightblue { background-color: lightskyblue; }
+#dodgerblue { background-color: dodgerblue; }
+#blue { background-color: blue; }
+#navy { background-color: navy; }
+#indigo { background-color: indigo; }
+#purple { background-color: purple; }
+#violet { background-color: violet; }
+#pink { background-color: pink; }
+#lightgray { background-color: lightgray; }
+#gray { background-color: gray; }
+#black { background-color: black; }
+#white { background-color: white; }
+
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    height: 100vh;
+    padding: 5px 5px 5px 0;
+}
+
+#main>*{
+    border: 1px lightgray solid;
+    background-color: white;
+}
