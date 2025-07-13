@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment Form - POST Method</title>
+</head>
+<body>
+  <!-- the data will be submitted via POST method, it won't appear in the URL-->
+  <form method="post" action="index.html">
+    <div>
+      <label for="name"><strong>Name</strong></label><br>
+      <input type="text" id="name" name="name">
+    </div>
+    <br>
+    <div>
+      <label for="comments"><strong>Comments</strong></label><br>
+      <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+    </div>
+    <br>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html> 
