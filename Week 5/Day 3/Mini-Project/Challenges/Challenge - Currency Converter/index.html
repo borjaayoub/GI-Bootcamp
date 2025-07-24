@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <div class="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center " style="background-image: url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e');">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80"></div>
+    <div class="relative bg-white bg-opacity-90 p-8 rounded-xl shadow-md w-full max-w-md space-y-6 backdrop-blur-sm">
+      <div class="space-y-2">
+        <label for="fromCurrency" class="block text-gray-700 font-semibold">From:</label>
+        <select id="fromCurrency" class="w-full border border-gray-300 rounded-md p-2">
+        </select>
+      </div>
+
+      <div class="flex justify-center ">
+        <div class="w-8 h-8" id="switch-icon">
+          <img 
+            class="rotate-90 hover:filter-none active:scale-90 active:brightness-75"  
+            src="https://raw.githubusercontent.com/devtlv/studentsGitHub/refs/heads/master/Images%20cours%20%C3%A0%20h%C3%A9berger%20-%2006.03.2024/Week%207%20-%20Adv%20%26%20Asynchronous%20Javascript/W7D5/148588337-233540b7-aac6-4b25-bbf4-520765380f59.png" 
+            alt="Money Exchange Icon">
+        </div>
+      </div>
+  
+      <div class="space-y-2">
+        <label for="toCurrency" class="block text-gray-700 font-semibold">To:</label>
+        <select id="toCurrency" class="w-full border border-gray-300 rounded-md p-2">
+        </select>
+      </div>
+  
+      <div class="space-y-2">
+        <label for="amount" class="block text-gray-700 font-semibold">Amount:</label>
+        <input type="text" id="amount" class="w-full border border-gray-300 rounded-md p-2" placeholder="Enter amount">
+      </div>
+  
+      <button id="btn" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200">
+        Convert
+      </button>
+  
+      <p id="conversionResult" class="text-center text-lg font-bold text-green-600 mt-4"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
