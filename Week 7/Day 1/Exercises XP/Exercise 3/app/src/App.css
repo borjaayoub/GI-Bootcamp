@@ -1,0 +1,38 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: red;
+  background-color: lightblue;
+}
+
+div {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  height: auto;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
